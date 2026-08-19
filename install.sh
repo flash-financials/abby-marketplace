@@ -5,6 +5,11 @@
 #   curl -fsSL https://raw.githubusercontent.com/flash-financials/abbycli-dist/main/install.sh | sh
 #   curl -fsSL .../install.sh | sh -s -- v1.0.0     # pin a version instead of latest
 #
+# Also published as a release asset, for networks that block
+# raw.githubusercontent.com but not github.com:
+#
+#   curl -fsSL https://github.com/flash-financials/abbycli-dist/releases/latest/download/install.sh | sh
+#
 # Installs to ~/.abby/bin (override with ABBY_INSTALL_DIR).
 #
 # Releases live in a PUBLIC repository, separate from the private source repo,
@@ -90,11 +95,30 @@ mv "${tmp_dir}/abbycli" "${INSTALL_DIR}/abbycli"
 chmod +x "${INSTALL_DIR}/abbycli"
 
 echo "Installed abbycli to ${INSTALL_DIR}/abbycli"
+
+# Naming the actual rc file matters more than it looks: the Claude Code plugin
+# runs `abbycli` as a bare command, so an install that is not on PATH leaves the
+# plugin unable to start, with an error that says nothing about PATH. "Add it to
+# your PATH" is easy to skim past right after a success line, so print the exact
+# file and the exact line instead of an example.
 case ":${PATH}:" in
 *":${INSTALL_DIR}:"*) ;;
 *)
+	case "$(basename "${SHELL:-sh}")" in
+	zsh) rc="${ZDOTDIR:-$HOME}/.zshrc" ;;
+	bash) rc="$HOME/.bashrc" ;;
+	fish) rc="$HOME/.config/fish/config.fish" ;;
+	*) rc="your shell's startup file" ;;
+	esac
 	echo
-	echo "${INSTALL_DIR} is not on your PATH. Add it, e.g.:"
-	echo "  export PATH=\"${INSTALL_DIR}:\$PATH\""
+	echo "NOT DONE YET: ${INSTALL_DIR} is not on your PATH, so \`abbycli\` will not"
+	echo "run and the Claude Code plugin will fail to start. Run:"
+	echo
+	if [ "${rc}" = "$HOME/.config/fish/config.fish" ]; then
+		echo "  fish_add_path ${INSTALL_DIR}"
+	else
+		echo "  echo 'export PATH=\"${INSTALL_DIR}:\$PATH\"' >> ${rc} && . ${rc}"
+	fi
+	echo
 	;;
 esac

@@ -1,7 +1,10 @@
 {
   "name": "abby-authoring",
+  "version": "1.0.0",
   "description": "Create, check, preview and publish Abby App/Report bundles",
-  "author": { "name": "Flash Financials" },
+  "author": {
+    "name": "Flash Financials"
+  },
   "userConfig": {
     "base_url": {
       "type": "string",
