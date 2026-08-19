@@ -96,11 +96,10 @@ chmod +x "${INSTALL_DIR}/abbycli"
 
 echo "Installed abbycli to ${INSTALL_DIR}/abbycli"
 
-# Naming the actual rc file matters more than it looks: the Claude Code plugin
-# runs `abbycli` as a bare command, so an install that is not on PATH leaves the
-# plugin unable to start, with an error that says nothing about PATH. "Add it to
-# your PATH" is easy to skim past right after a success line, so print the exact
-# file and the exact line instead of an example.
+# Name the actual rc file rather than showing an example: "add it to your PATH"
+# is easy to skim past right after a success line, and then every command in the
+# docs fails for a reason the user has already scrolled past. The plugin itself
+# resolves the binary without PATH, so this is about the commands you type.
 case ":${PATH}:" in
 *":${INSTALL_DIR}:"*) ;;
 *)
@@ -111,8 +110,8 @@ case ":${PATH}:" in
 	*) rc="your shell's startup file" ;;
 	esac
 	echo
-	echo "NOT DONE YET: ${INSTALL_DIR} is not on your PATH, so \`abbycli\` will not"
-	echo "run and the Claude Code plugin will fail to start. Run:"
+	echo "ONE MORE STEP: ${INSTALL_DIR} is not on your PATH, so typing \`abbycli\`"
+	echo "will not work. Run:"
 	echo
 	if [ "${rc}" = "$HOME/.config/fish/config.fish" ]; then
 		echo "  fish_add_path ${INSTALL_DIR}"

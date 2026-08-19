@@ -1,0 +1,43 @@
+#!/bin/sh
+#
+# Locate abbycli and hand off to `abbycli mcp`.
+#
+# The manifest cannot name the binary directly. It substitutes only
+# ${CLAUDE_PLUGIN_ROOT}, ${CLAUDE_PLUGIN_DATA} and ${CLAUDE_PROJECT_DIR} — not
+# ~ or ${HOME} — so an absolute path there would be one machine's path, and a
+# bare `abbycli` needs the install directory on PATH.
+#
+# PATH is exactly what cannot be relied on. A client launched from the Dock or
+# Spotlight does not build its PATH from your shell profile: measured on macOS
+# 25, adding ~/.abby/bin to both ~/.zprofile and ~/.zshrc and fully restarting
+# the app left the app's PATH without it, while a login shell picked it up at
+# once. Terminal-launched clients are fine; those users were never the problem.
+#
+# So resolve at runtime, where $HOME is real. PATH is still consulted — it is
+# right whenever it works, and it is what honours ABBY_INSTALL_DIR installs
+# that the fixed paths below would miss.
+set -eu
+
+for candidate in \
+	"${ABBY_BIN:-}" \
+	"$(command -v abbycli 2>/dev/null || true)" \
+	"$HOME/.abby/bin/abbycli" \
+	/usr/local/bin/abbycli \
+	/opt/homebrew/bin/abbycli
+do
+	if [ -n "$candidate" ] && [ -x "$candidate" ]; then
+		exec "$candidate" mcp "$@"
+	fi
+done
+
+# Reached only when abbycli is genuinely absent, so say what to do about it
+# rather than leaving the client to report a bare spawn failure.
+cat >&2 <<'MSG'
+abbycli was not found.
+
+Install it:
+  curl -fsSL https://github.com/flash-financials/abbycli-dist/releases/latest/download/install.sh | sh
+
+If it is installed somewhere unusual, point ABBY_BIN at the binary.
+MSG
+exit 1
