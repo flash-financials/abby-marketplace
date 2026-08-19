@@ -1,0 +1,13 @@
+{
+  "name": "abby",
+  "description": "Author Abby App/Report bundles from your editor",
+  "owner": { "name": "Flash Financials" },
+  "plugins": [
+    {
+      "name": "abby-authoring",
+      "source": "./plugins/abby-authoring",
+      "description": "Create, check, preview and publish Abby App/Report bundles through abbycli",
+      "category": "development"
+    }
+  ]
+}

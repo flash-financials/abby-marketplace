@@ -1,0 +1,13 @@
+{
+  "name": "abby-authoring",
+  "description": "Create, check, preview and publish Abby App/Report bundles",
+  "author": { "name": "Flash Financials" },
+  "userConfig": {
+    "base_url": {
+      "type": "string",
+      "title": "Abby deployment",
+      "description": "The Abby API you sign in to, e.g. https://acme.abby.am",
+      "required": true
+    }
+  }
+}
