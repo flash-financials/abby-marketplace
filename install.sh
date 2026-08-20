@@ -2,13 +2,16 @@
 #
 # Install abbycli.
 #
-#   curl -fsSL https://raw.githubusercontent.com/flash-financials/abbycli-dist/main/install.sh | sh
+#   curl -fsSL https://marketplace.abby.fm/install.sh | sh
 #   curl -fsSL .../install.sh | sh -s -- v1.0.0     # pin a version instead of latest
 #
-# Also published as a release asset, for networks that block
-# raw.githubusercontent.com but not github.com:
+# Also published as a release asset, for a network that reaches github.com but
+# not the marketplace domain:
 #
 #   curl -fsSL https://github.com/flash-financials/abbycli-dist/releases/latest/download/install.sh | sh
+#
+# Binaries keep coming from GitHub releases either way — the domain serves the
+# repository's files, not its release assets.
 #
 # Installs to ~/.abby/bin (override with ABBY_INSTALL_DIR).
 #
