@@ -10,11 +10,11 @@
       "name": "abby-authoring",
       "description": "Create, check, preview and publish Abby App/Report bundles through abbycli",
       "category": "development",
-      "version": "0.9.5",
+      "version": "0.9.6",
       "source": {
         "source": "archive",
-        "url": "https://marketplace.abby.fm/abby-authoring-0.9.5.zip",
-        "sha256": "344345f123b0165d5bd88b82ee2798385573e8e4e3bc294dfc478b9665a8f150"
+        "url": "https://marketplace.abby.fm/abby-authoring-0.9.6.zip",
+        "sha256": "1a772581186223651ccda1dc49149422feaa389ef7a8909ba5ca94a604fd1109"
       }
     }
   ]
