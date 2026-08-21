@@ -1,13 +1,17 @@
 {
-  "name": "abby",
-  "description": "Author Abby App/Report bundles from your editor",
-  "owner": { "name": "Flash Financials" },
+  "name": "abby-dev",
+  "description": "Abby authoring — dev trial build (https://dev.abby.am). Not for production use.",
+  "owner": {
+    "name": "Flash Financials",
+    "url": "https://abby.fm"
+  },
   "plugins": [
     {
       "name": "abby-authoring",
-      "source": "./plugins/abby-authoring",
-      "description": "Create, check, preview and publish Abby App/Report bundles through abbycli",
-      "category": "development"
+      "description": "Create, check, preview and publish Abby App/Report bundles through abbycli — wired to https://dev.abby.am",
+      "category": "development",
+      "version": "0.9.8-dev",
+      "source": "./plugins/abby-authoring"
     }
   ]
 }
