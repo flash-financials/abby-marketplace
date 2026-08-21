@@ -10,7 +10,7 @@
       "name": "abby-authoring",
       "description": "Create, check, preview and publish Abby App/Report bundles through abbycli — wired to https://dev.abby.am",
       "category": "development",
-      "version": "0.9.5-dev",
+      "version": "0.9.8-dev",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/flash-financials/abbycli-dist.git",
