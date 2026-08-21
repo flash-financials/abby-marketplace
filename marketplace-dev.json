@@ -12,9 +12,9 @@
       "category": "development",
       "version": "0.9.5-dev",
       "source": {
-        "source": "archive",
-        "url": "https://marketplace.abby.fm/abby-authoring-0.9.5-dev.zip",
-        "sha256": "eccce289654bf9f48d735e521dcc83290ad66cc7a650b4a0d8995e0dfc587f22"
+        "source": "git-subdir",
+        "url": "https://github.com/flash-financials/abbycli-dist.git",
+        "path": "environments/dev/plugins/abby-authoring"
       }
     }
   ]
