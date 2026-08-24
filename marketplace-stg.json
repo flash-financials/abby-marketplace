@@ -11,11 +11,11 @@
       "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am",
       "name": "abbycli",
       "source": {
-        "sha256": "43f6980f4c0e12ef68cfd9037147924328bfc579760d3d90008450de04e37374",
+        "sha256": "338e301dc9194d7394f745e984d7f5a16b8942f0d45c2a3efbfa19b8fdd958ad",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-stg.4/abbycli-plugin-0.9.5-stg.4.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-stg.6/abbycli-plugin-0.9.5-stg.6.zip"
       },
-      "version": "0.9.5-stg.4"
+      "version": "0.9.5-stg.6"
     }
   ]
 }
