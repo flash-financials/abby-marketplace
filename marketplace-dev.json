@@ -1,21 +1,21 @@
 {
+  "description": "Abby authoring — dev build (https://dev.abby.am). Not for production use.",
   "name": "abby-dev",
-  "description": "Abby authoring — dev trial build (https://dev.abby.am). Not for production use.",
   "owner": {
     "name": "Flash Financials",
     "url": "https://abby.fm"
   },
   "plugins": [
     {
-      "name": "abby-authoring",
-      "description": "Create, check, preview and publish Abby App/Report bundles through abbycli — wired to https://dev.abby.am",
       "category": "development",
-      "version": "0.9.5-dev",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://dev.abby.am",
+      "name": "abbycli",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/flash-financials/abbycli-dist.git",
-        "path": "environments/dev/plugins/abby-authoring"
-      }
+        "sha256": "476d67a2ea38c30cd92bd1ac01942e6f1098fe7309d434ff626f0b71a348e6da",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-dev.3/abbycli-plugin-0.9.5-dev.3.zip"
+      },
+      "version": "0.9.5-dev.3"
     }
   ]
 }
