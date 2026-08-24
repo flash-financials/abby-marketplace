@@ -1,0 +1,21 @@
+{
+  "description": "Abby authoring — stg build (https://stg.abby.am). Not for production use.",
+  "name": "abby-stg",
+  "owner": {
+    "name": "Flash Financials",
+    "url": "https://abby.fm"
+  },
+  "plugins": [
+    {
+      "category": "development",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am",
+      "name": "abbycli",
+      "source": {
+        "sha256": "43f6980f4c0e12ef68cfd9037147924328bfc579760d3d90008450de04e37374",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-stg.4/abbycli-plugin-0.9.5-stg.4.zip"
+      },
+      "version": "0.9.5-stg.4"
+    }
+  ]
+}
