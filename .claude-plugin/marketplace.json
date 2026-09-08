@@ -1,13 +1,21 @@
 {
-  "name": "abby",
   "description": "Author Abby App/Report bundles from your editor",
-  "owner": { "name": "Flash Financials" },
+  "name": "abby",
+  "owner": {
+    "name": "Flash Financials",
+    "url": "https://abby.fm"
+  },
   "plugins": [
     {
-      "name": "abby-authoring",
-      "source": "./plugins/abby-authoring",
-      "description": "Create, check, preview and publish Abby App/Report bundles through abbycli",
-      "category": "development"
+      "category": "development",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first",
+      "name": "abbycli",
+      "source": {
+        "sha256": "e92e87f40e0d259e7e195ad901a2676bd64d5698dc8d966e5127d657992e2fd4",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5/abbycli-plugin-0.9.5.zip"
+      },
+      "version": "0.9.5"
     }
   ]
 }
