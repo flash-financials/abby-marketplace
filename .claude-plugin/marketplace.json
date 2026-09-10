@@ -8,14 +8,36 @@
   "plugins": [
     {
       "category": "development",
-      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://dev.abby.am",
-      "name": "abbycli",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://dev.abby.am — macOS (Apple Silicon)",
+      "name": "abbycli-mac",
       "source": {
-        "sha256": "1123f2a68347c65e15ef6a498a2ab13529cacae7af4901821b86b63186306620",
+        "sha256": "03c9b423742847e742a515ede450fda0b89cabefa152a4852f49b19392804cfc",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-dev.22/abbycli-plugin-0.9.5-dev.22.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-dev.24/abbycli-mac-plugin-0.9.5-dev.24.zip"
       },
-      "version": "0.9.5-dev.22"
+      "version": "0.9.5-dev.24"
+    },
+    {
+      "category": "development",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://dev.abby.am — Linux (x64)",
+      "name": "abbycli-linux",
+      "source": {
+        "sha256": "23d59f391ab0b2276c83653f46ca7c24318f76eaf29748e7e69a992220f00371",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-dev.24/abbycli-linux-plugin-0.9.5-dev.24.zip"
+      },
+      "version": "0.9.5-dev.24"
+    },
+    {
+      "category": "development",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://dev.abby.am — Windows (x64)",
+      "name": "abbycli-windows",
+      "source": {
+        "sha256": "e6acf5a4d3bdc2c6a464ed2f9856355652605c51c44b3efbdbfcb9741657d205",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-dev.24/abbycli-windows-plugin-0.9.5-dev.24.zip"
+      },
+      "version": "0.9.5-dev.24"
     }
   ]
 }
