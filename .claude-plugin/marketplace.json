@@ -8,14 +8,36 @@
   "plugins": [
     {
       "category": "development",
-      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am",
-      "name": "abbycli",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — macOS (Apple Silicon)",
+      "name": "abbycli-mac",
       "source": {
-        "sha256": "ee1f24cb4897542d4be4a90751a1cc6be0869db1a260a4cef184503ede4c9a32",
+        "sha256": "1b114a356b864dec46c6d85b39d596c69112db87573d9495df0c3d1a29c580ef",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-stg.23/abbycli-plugin-0.9.5-stg.23.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-stg.28/abbycli-mac-plugin-0.9.5-stg.28.zip"
       },
-      "version": "0.9.5-stg.23"
+      "version": "0.9.5-stg.28"
+    },
+    {
+      "category": "development",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — Linux (x64)",
+      "name": "abbycli-linux",
+      "source": {
+        "sha256": "64318bcbbbc702493c86b355215aec20c689bc8aff8e445cf3600c5aa9ea91c9",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-stg.28/abbycli-linux-plugin-0.9.5-stg.28.zip"
+      },
+      "version": "0.9.5-stg.28"
+    },
+    {
+      "category": "development",
+      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — Windows (x64)",
+      "name": "abbycli-windows",
+      "source": {
+        "sha256": "8079a587c376dd3906e666a6eeec1eca61a7c1696129256a24971c9b114e526c",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v0.9.5-stg.28/abbycli-windows-plugin-0.9.5-stg.28.zip"
+      },
+      "version": "0.9.5-stg.28"
     }
   ]
 }
