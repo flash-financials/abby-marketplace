@@ -11,33 +11,33 @@
       "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — macOS (Apple Silicon)",
       "name": "abbycli-mac",
       "source": {
-        "sha256": "9e3eee442074fc555ceb24cc6822ad0c917b771575a07aa1b962cf86a7592d02",
+        "sha256": "2296e9656aef7a69556189f924e7def6ee3806b3ace553c3436ebf2b345ee806",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.30/abbycli-mac-plugin-1.0.0-stg.30.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.31/abbycli-mac-plugin-1.0.0-stg.31.zip"
       },
-      "version": "1.0.0-stg.30"
+      "version": "1.0.0-stg.31"
     },
     {
       "category": "development",
       "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — Linux (x64)",
       "name": "abbycli-linux",
       "source": {
-        "sha256": "12756de986ee846c27ca496b8365279192e81ae7e3b2f7997e0b1f7d5cad8c42",
+        "sha256": "282f7004937effc778569cab49c13423ef5e9fc7c5aa879a9c60b94b15ac9618",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.30/abbycli-linux-plugin-1.0.0-stg.30.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.31/abbycli-linux-plugin-1.0.0-stg.31.zip"
       },
-      "version": "1.0.0-stg.30"
+      "version": "1.0.0-stg.31"
     },
     {
       "category": "development",
       "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — Windows (x64)",
       "name": "abbycli-windows",
       "source": {
-        "sha256": "74feb0042b0335b816941d36166104bf8e17083db7a439ab2ecd5d5ffcef1696",
+        "sha256": "2215f0d59ff448d0ba79360c26a034df6065f0075240fee090d67f9069770c21",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.30/abbycli-windows-plugin-1.0.0-stg.30.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.31/abbycli-windows-plugin-1.0.0-stg.31.zip"
       },
-      "version": "1.0.0-stg.30"
+      "version": "1.0.0-stg.31"
     }
   ]
 }
