@@ -8,36 +8,36 @@
   "plugins": [
     {
       "category": "development",
-      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — macOS (Apple Silicon)",
+      "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://stg.abby.am — macOS (Apple Silicon)",
       "name": "abbycli-mac",
       "source": {
-        "sha256": "ec748fef276c0346ddf1b140b6c49d0bcc9547f1283b333cf4219da513970075",
+        "sha256": "8723b7a0a538a06e830714a7ee19edf5582a4b66e2784d864918fa2a57c49e02",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.48/abbycli-mac-plugin-1.0.0-stg.48.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.50/abbycli-mac-plugin-1.0.0-stg.50.zip"
       },
-      "version": "1.0.0-stg.48"
+      "version": "1.0.0-stg.50"
     },
     {
       "category": "development",
-      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — Linux (x64)",
+      "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://stg.abby.am — Linux (x64)",
       "name": "abbycli-linux",
       "source": {
-        "sha256": "acbca9fac12948dfc5b323e4e303efd89e55126c5bb8d81b98e7bf47bfda9187",
+        "sha256": "85129b122a49f2ea85b1b714c81bd8a8f272b69805eaa770f45ccfcedcf62983",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.48/abbycli-linux-plugin-1.0.0-stg.48.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.50/abbycli-linux-plugin-1.0.0-stg.50.zip"
       },
-      "version": "1.0.0-stg.48"
+      "version": "1.0.0-stg.50"
     },
     {
       "category": "development",
-      "description": "Author Abby Apps and Reports — abbycli ships inside this plugin, nothing to install first — wired to https://stg.abby.am — Windows (x64)",
+      "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://stg.abby.am — Windows (x64)",
       "name": "abbycli-windows",
       "source": {
-        "sha256": "f66f6ba8643e9bcdcfbdcaa6a48ab505cb02aa48230f928ccf1a256f2fd5dba1",
+        "sha256": "d1783ed0e684f1e259a04306ac6854335ae8cdc6bbaa586fce2ba9eede071e72",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.48/abbycli-windows-plugin-1.0.0-stg.48.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-stg.50/abbycli-windows-plugin-1.0.0-stg.50.zip"
       },
-      "version": "1.0.0-stg.48"
+      "version": "1.0.0-stg.50"
     }
   ]
 }
