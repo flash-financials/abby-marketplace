@@ -11,33 +11,33 @@
       "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://dev.abby.am — macOS (Apple Silicon)",
       "name": "abbycli-mac",
       "source": {
-        "sha256": "7ddcdf46dbe80e31a460b291aa3ca497f9537430e4fc745ec77c20e916ed21df",
+        "sha256": "a9736c5640454f00192b3fbbf610fc056de85b6ed36bffe61f8d0520b1211455",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-dev.52/abbycli-mac-plugin-1.0.0-dev.52.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-dev.59/abbycli-mac-plugin-1.0.0-dev.59.zip"
       },
-      "version": "1.0.0-dev.52"
+      "version": "1.0.0-dev.59"
     },
     {
       "category": "development",
       "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://dev.abby.am — Linux (x64 + ARM64)",
       "name": "abbycli-linux",
       "source": {
-        "sha256": "0373e2424c020903c202afe859fcf4dd13c965619a0003d505dcbc60cd4ce82f",
+        "sha256": "1c7d453c3baead863912f0fc4eefbe0329a9a3d760b9fde34deabeaa7da82397",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-dev.52/abbycli-linux-plugin-1.0.0-dev.52.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-dev.59/abbycli-linux-plugin-1.0.0-dev.59.zip"
       },
-      "version": "1.0.0-dev.52"
+      "version": "1.0.0-dev.59"
     },
     {
       "category": "development",
       "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://dev.abby.am — Windows (x64)",
       "name": "abbycli-windows",
       "source": {
-        "sha256": "dfa08d5d247ba33089d71bc0ac6ea0c3b869c8b944a9664d1532a55e1735ed3d",
+        "sha256": "25fdaa3b7af6edc7343013aa6101a881378d779374fb8fa8c6922ad503f6fae4",
         "source": "archive",
-        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-dev.52/abbycli-windows-plugin-1.0.0-dev.52.zip"
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-dev.59/abbycli-windows-plugin-1.0.0-dev.59.zip"
       },
-      "version": "1.0.0-dev.52"
+      "version": "1.0.0-dev.59"
     }
   ]
 }
