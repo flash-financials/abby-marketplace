@@ -11,7 +11,7 @@
       "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — macOS (Apple Silicon)",
       "name": "abbycli-mac",
       "source": {
-        "sha256": "33119f2e54431ac89946e25392f673ad171d62422f8263129e086c79c61fc596",
+        "sha256": "6846e7399731365683a4caffa1355bc6c571919b2b1d9a46f3c64447c1b71079",
         "source": "archive",
         "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0/abbycli-mac-plugin-1.0.0.zip"
       },
@@ -22,7 +22,7 @@
       "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — Linux (x64 + ARM64)",
       "name": "abbycli-linux",
       "source": {
-        "sha256": "c9ccdc021f3cd6eceb47762c5c6e5854d340b09181730d32b34b6b173560f2bd",
+        "sha256": "447f88395aecb772ffa7ea9a053e7f0e7980c412c7e8ccaa05bc84185bda8632",
         "source": "archive",
         "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0/abbycli-linux-plugin-1.0.0.zip"
       },
@@ -33,7 +33,7 @@
       "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — Windows (x64)",
       "name": "abbycli-windows",
       "source": {
-        "sha256": "cad68f3cf8a95748fa4a5e22af07bb5c6e241b2e3cb2f7dc6a47bbc96a5d9251",
+        "sha256": "8f7861faf1ccb0a7ca8bef2c3dcdbe56617de829751151a15c1dca2d06064099",
         "source": "archive",
         "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0/abbycli-windows-plugin-1.0.0.zip"
       },
