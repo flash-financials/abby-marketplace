@@ -1,0 +1,43 @@
+{
+  "description": "Abby authoring — uat build (https://uat.abby.am). Not for production use.",
+  "name": "abby-uat",
+  "owner": {
+    "name": "Flash Financials",
+    "url": "https://abby.fm"
+  },
+  "plugins": [
+    {
+      "category": "development",
+      "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://uat.abby.am — macOS (Apple Silicon)",
+      "name": "abbycli-mac",
+      "source": {
+        "sha256": "c1e03ad6f179d21a53a20b1a623f266334af20f93db03a0bea2f36188bc1cc19",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-uat.68/abbycli-mac-plugin-1.0.0-uat.68.zip"
+      },
+      "version": "1.0.0-uat.68"
+    },
+    {
+      "category": "development",
+      "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://uat.abby.am — Linux (x64 + ARM64)",
+      "name": "abbycli-linux",
+      "source": {
+        "sha256": "ab9e657772f2941a335d56e09d6de1a76c4e989a73de0e7a8845f7cc164c306e",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-uat.68/abbycli-linux-plugin-1.0.0-uat.68.zip"
+      },
+      "version": "1.0.0-uat.68"
+    },
+    {
+      "category": "development",
+      "description": "Author Abby Apps and Reports — includes the Abby CLI; no separate CLI installation required — wired to https://uat.abby.am — Windows (x64)",
+      "name": "abbycli-windows",
+      "source": {
+        "sha256": "b3f5533adfe596b19832a6d8af333d282b9148b9b8d2e1186699f620eb97959b",
+        "source": "archive",
+        "url": "https://github.com/flash-financials/abby-marketplace/releases/download/v1.0.0-uat.68/abbycli-windows-plugin-1.0.0-uat.68.zip"
+      },
+      "version": "1.0.0-uat.68"
+    }
+  ]
+}
