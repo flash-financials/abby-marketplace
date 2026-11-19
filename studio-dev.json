@@ -1,7 +1,7 @@
 {
   "name": "abby-studio-dev",
-  "version": "1.0.3-dev.2",
-  "url": "https://github.com/flash-financials/abby-marketplace/releases/download/studio-v1.0.3-dev.2/AbbyStudioSetup-1.0.3-dev.2.exe",
-  "sha256": "e03f09c481291be0bebd15863dcd2bfbb01e8d4732d9ba186041bf66dce54095",
-  "notes": "Abby Studio 1.0.3-dev.2"
+  "version": "1.0.3-dev.5",
+  "url": "https://github.com/flash-financials/abby-marketplace/releases/download/studio-v1.0.3-dev.5/AbbyStudioSetup-1.0.3-dev.5.exe",
+  "sha256": "fb2f0237e5395903658151e621db978057bc62ea3c858ed6ca2b8b1bfb0b78b2",
+  "notes": "Abby Studio 1.0.3-dev.5"
 }
