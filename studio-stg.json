@@ -1,7 +1,7 @@
 {
   "name": "abby-studio-stg",
-  "version": "1.0.3-stg.8",
-  "url": "https://github.com/flash-financials/abby-marketplace/releases/download/studio-v1.0.3-stg.8/AbbyStudioSetup-1.0.3-stg.8.exe",
-  "sha256": "b0944f1c8793d5fad72dc8dcff64ff7066972dae426aebda9b77a3ae5bce2324",
-  "notes": "Abby Studio 1.0.3-stg.8"
+  "version": "1.0.4-stg.9",
+  "url": "https://github.com/flash-financials/abby-marketplace/releases/download/studio-v1.0.4-stg.9/AbbyStudioSetup-1.0.4-stg.9.exe",
+  "sha256": "c25ec491ec3783990ae9bea4e17a57010e4d3bec6ef05749aa4ccf57768a82c2",
+  "notes": "Abby Studio 1.0.4-stg.9"
 }
