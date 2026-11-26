@@ -1,7 +1,7 @@
 {
   "name": "abby-drive-stg",
-  "version": "1.1.1-stg.3",
-  "url": "https://github.com/flash-financials/abby-marketplace/releases/download/drive-v1.1.1-stg.3/AbbyDriveSetup-1.1.1-stg.3.exe",
-  "sha256": "d2e792273a6ef91d12ef205aad913aa57ab9d0fbaafe12053e1fe4288cfd32c2",
-  "notes": "Abby Drive 1.1.1-stg.3"
+  "version": "1.1.1-stg.4",
+  "url": "https://github.com/flash-financials/abby-marketplace/releases/download/drive-v1.1.1-stg.4/AbbyDriveSetup-1.1.1-stg.4.exe",
+  "sha256": "007db24ae11b04bfb628b79cdb11922e33e04f82c114b9534d55c61718154d78",
+  "notes": "Abby Drive 1.1.1-stg.4"
 }
